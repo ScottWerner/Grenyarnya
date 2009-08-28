@@ -24,10 +24,10 @@ threads = []
 while (session = server.accept)
 	#log connection and address
 	threads << Thread.new(session) { |s|
-			puts "Accepting connection from #{s.addr[2]}."
+			puts "Accepting connection from some jerk at #{s.addr[2]}."
 			c = Client.new(s,chat, world)
 			Thread.current['client'] = c
 			c.start
 			s.close
-		}
+		} 
 end
