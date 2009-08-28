@@ -1,0 +1,50 @@
+#Rooms take the following parameters
+# - int
+# name:
+# type: (outdoors only at the moment)
+# north-exit:
+# east-exit:
+# south-exit:
+# west-exit:
+
+---
+areaname: "test area"
+rooms:
+  - room-id: 0
+    name: "Center Room"
+    type: outdoors
+    north-exit: 1
+    east-exit: 2
+    south-exit: 3
+    west-exit: 4
+  - room-id: 1
+    name: "North Room"
+    type: outdoors
+    north-exit: ~
+    east-exit: ~
+    south-exit: 0
+    west-exit: ~
+  - room-id: 2
+    name: "East Room"
+    type: outdoors
+    north-exit: ~
+    east-exit: ~
+    south-exit: ~
+    west-exit: 0
+  - room-id: 3
+    name: "South Room"
+    type: outdoors
+    north-exit: 0
+    east-exit: ~
+    south-exit: ~
+    west-exit: ~
+  - room-id: 4
+    name: "West Room"
+    type: outdoors
+    north-exit: ~
+    east-exit: 0
+    south-exit: ~
+    west-exit: ~
+
+	
+		
