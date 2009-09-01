@@ -18,7 +18,8 @@ class World
 		
 	def load_areas
 		areas = Dir.entries("areas")
-		areas = areas[2..-1]
+		areas.delete("..")
+		areas.delete(".")
 		areas.each do |a|
 			area = YAML.load_file("areas/#{a.to_s}")
 			@areas << Area.new(area)
