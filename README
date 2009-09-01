@@ -1,0 +1,14 @@
+README
+
+I. About
+
+This project is partly a way for me to learn Ruby better and become a better programmer, and partly an idea I had of creating a graphical MUD to make it easier to facilitate the rich diversity we see in the textbased MUD world into the graphical MMORPG world.  I'm going to be using the same basic idea of a MUD, but to play the game will require a custom client.
+
+II. Client
+
+The client I'm going to be writing will be in Ruby using WxRuby because it seems to me that it is the most versatile gui toolkit available, I'm open to other suggestions though.
+
+III. Contact and Website
+
+I don't have a website yet since this is still in the very early stages, but should be coming in the near future as I do more work on this.
+I can be contacted through a message on github or by email at stwerner at vt dot edu
